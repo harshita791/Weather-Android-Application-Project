@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:id="@+id/city"
+          android:padding="16dp"
+          android:layout_centerHorizontal="true"
+          android:text="Spokane,US"
+          android:textColor="#fff"
+          android:textStyle="bold"
+          android:textSize="25dp"
+          android:layout_marginTop="10sp"
+          android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/thumbnailIcon"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20dp"
+        android:background="#F8F5F5"
+        android:layout_below="@id/city"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="12 Deg"
+        android:id="@+id/tempText"
+        android:textStyle="normal"
+        android:textColor="#fff"
+        android:layout_below="@id/city"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="25sp"
+        android:textSize="42dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/windText"
+        android:textColor="#fff"
+        android:text="Wind"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/thumbnailIcon"
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/cloudText"
+        android:textColor="#fff"
+        android:text="Cloud"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/windText"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/pressureText"
+        android:textColor="#fff"
+        android:text="Pressure"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/cloudText"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/humidText"
+        android:textColor="#fff"
+        android:text="Humidity"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/pressureText"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/riseText"
+        android:textColor="#fff"
+        android:text="Sunrise"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/humidText"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/setText"
+        android:textColor="#fff"
+        android:text="Sunset"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/riseText"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/update"
+        android:text="Last Updated"
+        android:layout_marginTop="5sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/setText"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

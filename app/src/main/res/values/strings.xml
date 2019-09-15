@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MyWeather</string>
+
+    <string name="change_city">Change City</string>
+</resources>
